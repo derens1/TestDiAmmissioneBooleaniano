@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="cssEsercizio.css" rel="stylesheet" type="text/css">
+
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="opaco">
+
+
+        <br><br><br><br><br><br>
+
+        <img class="immagine" src="logo.png"
+        alt="Errore nel caricamento del logo ci scusiamo per il disagio">
+
+        <span class='titolo'>Taking booleaners from A to B</span>
+        <script>
+        window.alert("Ciao Boolean School, in questo esercizio mi sono divertito a mettere in pratica anche le cose studiate di js")
+        function cambiamoBackground(sfondo,colore,font,dimensione) {
+            document.getElementById('uno').style.background = sfondo;
+            document.getElementById('uno').style.color = colore;
+            document.getElementById('uno').style.fontWeight=font;
+            document.getElementById('uno').style.fontSize=dimensione;
+
+             window.alert("Attenzione Boolean nessun link disponibile")
+        }
+        function cambiamoBackground2(sfondo,colore,font,dimensione) {
+            document.getElementById('due').style.background = sfondo;
+            document.getElementById('due').style.color = colore;
+            document.getElementById('due').style.fontWeight=font;
+            document.getElementById('due').style.fontSize=dimensione;
+
+
+             window.alert("Attenzione Boolean nessun link disponibile")
+        }
+        function cambiamoBackground3(sfondo,colore,font,dimensione) {
+            document.getElementById('tre').style.background = sfondo;
+            document.getElementById('tre').style.color = colore;
+            document.getElementById('tre').style.fontWeight=font;
+            document.getElementById('tre').style.fontSize=dimensione;
+
+             window.alert("Attenzione Boolean nessun link disponibile")
+        }
+
+
+        </script>
+        <nav class="nav">
+
+          <input id="uno" type="button"  value="Prenota" OnClick="cambiamoBackground('#0000FF','#ffffff','bold','15px')" >
+          <input id="due" type="button"  value="Termina Prenotazione" OnClick="cambiamoBackground2('#0000FF','#ffffff','bold','15px')">
+          <input id="tre" type="button"  value="Accendi Luci" OnClick="cambiamoBackground3('#0000FF','#ffffff','bold','15px')">
+
+
+        <!--   Questo sarebbe stato il codice html nel caso in cui non avessi implementato le funzioni di js
+
+         <button class="uno" type="button">Prenota</button>
+          <button class="uno" type="button">Termina Prenotazione</button>
+          <button class="uno" type="button">Accendi Luci</button> -->
+        </nav>
+
+        <span class="primoveicolo">
+          <br>
+          <h3 class="Monopattino"><strong> &#9632; Monopattino Gino22 </strong> </h3>
+          <h5 class="Indirizzo"> &#8611;  Via Guadalametri - a 220 metri da te</h5>
+          <h5 class="Indirizzo">  Stato carica:</h5>
+
+<div class="percentuale1"></div>  <!--percentuali = barre colorate-->
+
+<span class="secondoveicolo">
+  <br>
+  <h3 class="Monopattino"><strong>&#9632; Monopattino Mike24</strong></h3>
+  <h5 class="Indirizzo"> &#8611; Via Ricciardoni - a 420 metri da te</h5>
+  <h5 class="Indirizzo">  Stato carica:</h5>
+
+<div class="percentuale2"></div>
+      </span>
+
+      <span class="terzoveicolo">
+        <br>
+        <h3 class="Monopattino"><strong> &#9632; Monopattino Mike24</strong></h3>
+        <h5 class="Indirizzo">&#8611; Via Ricciardoni - a 420 metri da te</h5>
+        <h5 class="Indirizzo">  Stato carica:</h5>
+
+      <div class="percentuale3"></div>
+            </span>
+      </div>
+  </body>
+  <footer>
+
+    <!-- imparato dalla lezione 4 (gmail) -->
+<span class="crediti">Creato da un aspirante booleaner</span>
+  </footer>
+</html>
